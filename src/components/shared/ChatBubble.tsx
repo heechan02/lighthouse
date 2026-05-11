@@ -8,6 +8,9 @@ interface ChatBubbleProps {
 
 function renderMarkdown(text: string): string {
   return text
+    .replace(/^### (.+)/gm, '<h3 class="font-semibold text-sm mt-2 mb-0.5">$1</h3>')
+    .replace(/^## (.+)/gm, '<h2 class="font-semibold text-base mt-2 mb-0.5">$1</h2>')
+    .replace(/^# (.+)/gm, '<h1 class="font-bold text-base mt-2 mb-1">$1</h1>')
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/^- (.+)/gm, '<li>$1</li>')
     .replace(/(<li>.*<\/li>)/gs, '<ul class="list-disc list-inside mt-1 space-y-0.5">$1</ul>')

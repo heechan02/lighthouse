@@ -4,7 +4,7 @@ import LandingPage from '@/features/landing/LandingPage'
 import OnboardingPage from '@/features/onboarding/OnboardingPage'
 import DashboardPage from '@/features/dashboard/DashboardPage'
 import RoadmapPage from '@/features/roadmap/RoadmapPage'
-const ChatPage = () => <div className="p-8 text-foreground font-sans">Chat Page</div>
+import ChatPage from '@/features/chat/ChatPage'
 const OpportunityDetailPage = () => <div className="p-8 text-foreground font-sans">Opportunity Detail Page</div>
 const InterviewPage = () => <div className="p-8 text-foreground font-sans">Interview Page</div>
 const AdvisorDashboardPage = () => <div className="p-8 text-foreground font-sans">Advisor Dashboard Page</div>

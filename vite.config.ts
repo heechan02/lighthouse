@@ -10,4 +10,13 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  server: {
+    proxy: {
+      '/azure': {
+        target: 'https://app-uoaihack6zs3w.azurewebsites.net',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/azure/, ''),
+      },
+    },
+  },
 })
