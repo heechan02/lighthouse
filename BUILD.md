@@ -11,7 +11,7 @@
 |--------|--------|
 | 0. Scaffold | ✅ Vite project created |
 | 1. Dependencies | ✅ Complete |
-| 2. Mock data + API | ⬜ Not started |
+| 2. Mock data + API | ✅ Complete |
 | 3. Shared components | ⬜ Not started |
 | 4. Landing page | ⬜ Not started |
 | 5. Onboarding chat | ⬜ Not started |
