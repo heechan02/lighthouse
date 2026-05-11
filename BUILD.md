@@ -18,7 +18,7 @@
 | 6. Dashboard                 | ✅ Complete             |
 | 7. Roadmap detail            | ✅ Complete             |
 | 8. Ask Lighthouse chat       | ✅ Complete             |
-| 9. Opportunity detail        | ⬜ Not started          |
+| 9. Opportunity detail        | ✅ Complete             |
 | 10. Advisor dashboard        | ⬜ Not started          |
 | 11. Mock interview (stretch) | ⬜ Not started          |
 
