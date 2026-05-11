@@ -1,9 +1,6 @@
-function App() {
-  return (
-    <div className="min-h-screen bg-background flex items-center justify-center">
-      <p className="text-foreground font-sans">Lighthouse</p>
-    </div>
-  )
-}
+import { RouterProvider } from 'react-router-dom'
+import { router } from '@/routes'
 
-export default App
+export default function App() {
+  return <RouterProvider router={router} />
+}

@@ -87,7 +87,7 @@ export async function markApplied(id: string): Promise<void> {
 }
 
 export async function sendOnboardingMessage(
-  message: string,
+  _message: string,
   step: number
 ): Promise<{ reply: string; profileComplete: boolean }> {
   await delay(800, 1200)
