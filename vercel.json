@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/azure/:path*",
+      "destination": "https://app-uoaihack6zs3w.azurewebsites.net/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
