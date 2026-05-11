@@ -2,8 +2,8 @@ import { createBrowserRouter } from 'react-router-dom'
 import AppShell from '@/components/layout/AppShell'
 import LandingPage from '@/features/landing/LandingPage'
 import OnboardingPage from '@/features/onboarding/OnboardingPage'
-const DashboardPage = () => <div className="p-8 text-foreground font-sans">Dashboard Page</div>
-const RoadmapPage = () => <div className="p-8 text-foreground font-sans">Roadmap Page</div>
+import DashboardPage from '@/features/dashboard/DashboardPage'
+import RoadmapPage from '@/features/roadmap/RoadmapPage'
 const ChatPage = () => <div className="p-8 text-foreground font-sans">Chat Page</div>
 const OpportunityDetailPage = () => <div className="p-8 text-foreground font-sans">Opportunity Detail Page</div>
 const InterviewPage = () => <div className="p-8 text-foreground font-sans">Interview Page</div>
