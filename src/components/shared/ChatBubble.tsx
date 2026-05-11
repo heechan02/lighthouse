@@ -28,7 +28,6 @@ export default function ChatBubble({ role, content, isStreaming = false }: ChatB
       >
         <div className="max-w-[80%] bg-primary text-white px-4 py-2.5 rounded-2xl rounded-tr-sm text-sm leading-relaxed">
           {content}
-          {isStreaming && <span className="animate-pulse ml-0.5">|</span>}
         </div>
       </motion.div>
     )
