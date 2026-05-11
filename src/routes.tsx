@@ -6,8 +6,8 @@ import DashboardPage from '@/features/dashboard/DashboardPage'
 import RoadmapPage from '@/features/roadmap/RoadmapPage'
 import ChatPage from '@/features/chat/ChatPage'
 import OpportunityDetailPage from '@/features/opportunity/OpportunityDetailPage'
+import AdvisorDashboardPage from '@/features/advisor/AdvisorDashboardPage'
 const InterviewPage = () => <div className="p-8 text-foreground font-sans">Interview Page</div>
-const AdvisorDashboardPage = () => <div className="p-8 text-foreground font-sans">Advisor Dashboard Page</div>
 
 export const router = createBrowserRouter([
   {
