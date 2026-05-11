@@ -1,0 +1,20 @@
+{
+    "details": {
+        "first name": "Jane",
+        "last name": "Doe",
+        "nationality": ["Britain", "Ghana"]
+    },
+    "degree-title": "BSc Computer Science and Artificial Intelligence",
+    "degree-part": "A",
+    "modules-grades": [
+        {
+            "module": "Introduction to Programming and Databases",
+            "grade": 85
+        },
+        {
+            "module": "Foundations of Artificial Intelligence",
+            "grade": 73
+        }
+    ],
+    "interests": ["Machine Learning", "Cloud Computing", "Distributed Systems"]
+}
