@@ -105,7 +105,7 @@ export default function RoadmapPage() {
 
         {/* Milestone accordions */}
         <div className="space-y-3">
-          {milestones.map((milestone, i) => (
+          {milestones.map((milestone) => (
             <MilestoneAccordion
               key={milestone.id}
               milestone={milestone}
