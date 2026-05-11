@@ -10,6 +10,10 @@ Many students do not prioritise career development while at university, which ca
 - Weigh up different career paths based on the student profile and interests.
 - Encourages seeking out online courses, optional modules, and summer work to gain skills for the chosen career path.
 
+<p>
+  <img src="https://github.com/heechan02/lighthouse/blob/main/sample.jpeg?raw=true" height=200px>
+</p>
+
 ## **Future work**
 - Check-ins every semester to feedback on previous modules and work, which update the user profile accordingly.
 - In the final or placement year, you can have a interview with an AI agent which is tailored to your target company.
