@@ -55,7 +55,7 @@ def main(API_KEY):
         }
     ]
 
-    for i in range(5):
+    while True:
         inp = input("Q: ")
         if inp == "q": break
         message_hist.append({
