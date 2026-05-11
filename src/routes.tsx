@@ -1,8 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import AppShell from '@/components/layout/AppShell'
-
-const LandingPage = () => <div className="p-8 text-foreground font-sans">Landing Page</div>
-const OnboardingPage = () => <div className="p-8 text-foreground font-sans">Onboarding Page</div>
+import LandingPage from '@/features/landing/LandingPage'
+import OnboardingPage from '@/features/onboarding/OnboardingPage'
 const DashboardPage = () => <div className="p-8 text-foreground font-sans">Dashboard Page</div>
 const RoadmapPage = () => <div className="p-8 text-foreground font-sans">Roadmap Page</div>
 const ChatPage = () => <div className="p-8 text-foreground font-sans">Chat Page</div>
@@ -19,6 +18,7 @@ export const router = createBrowserRouter([
     path: '/onboarding',
     element: <OnboardingPage />,
   },
+
   {
     path: '/app',
     element: <AppShell />,
